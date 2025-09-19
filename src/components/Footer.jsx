@@ -86,7 +86,7 @@ const Footer = () => {
                             <li className='hover:underline'>Apple and Business</li>
                         </ul>
                         <ul className='space-y-2 text-xs text-gray-600 p-2'>
-                            <li lassName='text-black font-semibold'>For Education</li>
+                            <li className='text-black font-semibold'>For Education</li>
                             <li className='hover:underline'>Apple and Education</li>
                             <li className='hover:underline'>Shop for Education</li>
                             <li className='hover:underline'>Shop for College</li>

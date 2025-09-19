@@ -1,8 +1,21 @@
-import React from 'react'
+
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import IPadProduct1 from './IPadProduct1'
 import IPadProduct2 from './IPadProduct2'
 import IPadProduct3 from './IPadProduct3'
 import IPadProduct4 from './IPadProduct4'
+
+function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // animation speed
+      once: true,     // play only once
+    });
+  }, []);
+
+}
 import {ChevronDown } from 'lucide-react'
 
 const IPads = () => {
@@ -39,7 +52,7 @@ const IPads = () => {
         </div>
       </div>
       <div>
-        <IPadProduct1/>
+       <IPadProduct1/>
         <IPadProduct2/>
         <IPadProduct3/>
         <IPadProduct4/>
