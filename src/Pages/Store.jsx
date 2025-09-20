@@ -12,7 +12,6 @@ const Store = () => {
     return (
         <div className='h-auto w-full items-center justify-center'>
             <p className='text-center pt-4 text-gray-800'>Get up to 6 months of No Cost EMI§ plus up to ₹10000.00 instant cashback§§ on selected products with eligible cards. <a href="#" className='text-blue-600 hover:underline'>See offers</a></p>
-            <h2 className='text-center font-serif font-semibold'>Create by Rachana</h2>
             <div className='h-auto w-full mt-4 bg-gray-100'>
                 <div className='flex items-center justify-between'>
                     <h1 className='text-gray-400 text-6xl max-w-2/3 pt-20 pl-10 font-semibold '> <b className='text-black'>Store.</b> The best way to buy the products you love.</h1>
